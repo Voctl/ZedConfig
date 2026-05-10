@@ -1,0 +1,54 @@
+{
+  "theme": "macOS Classic Dark",
+  "icon_theme": "Catppuccin Frappé",
+  "project_panel": {
+    "button": false,
+    "dock": "left"
+  },
+  "outline_panel": { "button": false },
+  "collaboration_panel": { "button": false },
+  "chat_panel": { "button": "never" },
+  "notification_panel": { "button": false },
+  "experimental.theme_overrides": {
+    "background.appearance": "opaque",
+    "editor.background": "#242424",
+    "editor.gutter.background": "#242424",
+    "gutter.background": "#242424",
+    "title_bar.background": "#242424",
+    "status_bar.background": "#242424",
+    "toolbar.background": "#242424",
+    "tab_bar.background": "#242424",
+    "tab.active_background": "#242424",
+    "syntax": {
+      "comment": { "color": "#99968b" },
+      "string": { "color": "#95e454" },
+      "keyword": { "color": "#8ac6f2" },
+      "function": { "color": "#cae682" },
+      "variable": { "color": "#f6f3e8" },
+      "number": { "color": "#e5786d" },
+      "type": { "color": "#cae682" }
+    }
+  },
+  "vim_mode": true,
+  "ui_font_size": 15,
+  "buffer_font_size": 16,
+  "font_family": "JetBrains Mono",
+  "font_weight": 900,
+  "buffer_font_line_height": 1.0,
+  "custom_font_features": {
+    "JetBrains Mono": {
+      "letter_spacing": -0.05
+    }
+  },
+  "ui_animations": false,
+  "cursor_blink": false,
+  "cursor_shape": "block",
+  "gutter_line_numbers": true,
+  "relative_line_numbers": "enabled",
+  "scrollbar": { "show": "never" },
+  "breadcrumbs": { "enabled": false },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  }
+}
